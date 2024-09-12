@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/LOGO-iSTRATEGY-.png" alt="logo strategy">
+        <h1>Iniciar Sesión</h1>
+        <h2>Ingresa tus datos a continuación</h2>
+    </header>
+    <main>
+        <section>
+            <form id="loginForm">
+                <div class="correo">
+                    <p>Correo Electrónico</p>
+                    <input id="email" placeholder="Ingresa el correo" type="text" required>
+                </div>
+                <div class="contrasenia">
+                    <p>Contraseña</p>
+                    <p style="color: red;">¿Olvidaste la Contraseña?</p>
+                </div>
+                <div class="contrasenia-text">
+                    <input id="password" placeholder="Introduzca Contraseña" type="password" required>
+                </div>
+                
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <p>Mantenme Conectado</p>
+                </div>
+                <div class="button"> 
+                    <button type="submit">Iniciar Sesión</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/sesion.js"></script>
+</body>
+</html>

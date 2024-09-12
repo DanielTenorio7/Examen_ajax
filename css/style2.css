@@ -1,0 +1,223 @@
+
+:root{
+    --color-primario : #334659 ;
+    --color-secundario : #cd3739 ;
+    --color-terceario : #ffffff ;
+    --color-textos : #404040 ;
+    --color-textos2 : #000000 ;
+    --color-cuarto : #233544 ;
+    --color-quinto : #586b76 ;
+    --color-iconografia: #9e9e9e ;
+    --color-septimo : #f77f00 ;
+    --color-octavo : #fcbf49 ;
+    --color-noveno : #eae2b7 ;
+    --color-decimo : #00bdff ;
+    --color-onceavo : #e0e0e0 ;
+    --color-doceavo : #2e465b ;
+}
+
+@font-face{
+    font-family: 'fuente1';
+    src: url(../Mundial_Fonts/MyriadPro-Regular.otf);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../assets/back.jpg);
+    font-family: 'fuente1';
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    
+    height: 100%;
+}
+
+
+
+.redes_sociales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-cuarto);
+    height: 100%;
+    width: 10%;
+}
+
+.avion{
+    padding: 30px;
+}
+
+.avion img{
+    width: 50px;
+}
+
+.redes_sociales2{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 30px;    
+    
+}
+
+.redes_sociales2 img{
+    width: 30px;
+}
+.login{
+    background-image: url(../assets/FONDO-FORMULARIO.jpg);
+    /*background-color: #00bdff;*/
+    width:90%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+
+    
+
+
+    
+}
+
+.imagen_despacho{
+    height: 100%;
+    background-image: url(../assets/main_2.png);
+    width: 50%;
+    background-size: cover; /* Ajusta la imagen para que cubra el div sin deformarse */
+    background-position: center; /* Centra la imagen dentro del div */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.login img{
+    
+    width: 50%;
+    
+}
+
+
+.login_usuario{
+    width: 100%;
+    height: 100%;
+    /*background-color: #cd3739;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.form{
+    /*background-color: #404040;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 95%;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form label{
+    padding: 0px;
+}
+.form input{
+    background-color: var(--color-doceavo);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    
+    
+}
+.form p{
+    margin-bottom: 5px;
+}
+.input{
+    display: flex;
+    background-color: var(--color-doceavo);
+    align-items: center;
+    border-radius: 5px;
+    width: 70%;
+    height: 40px;
+    
+    
+
+}
+.input p{
+    margin-top: 5px;
+}
+.form img{
+    width: 30px;
+    background-color: var(--color-doceavo);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.form label{
+    padding-top: 10px;
+}
+
+.checkbox {
+    /*background-color: #00bdff;*/
+    width: 100%;
+    margin: 10px 0;
+}
+
+.checkbox p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.checkbox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: #cd3739;*/
+    gap: 10px;
+}
+.checkbox2 div{
+    /*background-color: #00bdff;*/
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.checkbox2 input{
+    width: 20px;
+}
+
+
+
+.button{
+    display: flex;
+    /*background-color: red;*/
+    width: 100%;
+    justify-content: right;
+    
+    
+}
+
+.button button{
+    background-image: url(../assets/FONDO-FORMULARIO.jpg);
+    padding: 10px;
+    width: 90px;
+}
+.button button:hover{
+    background-image: none;
+    background-color: var(--color-doceavo);
+    color: var(--color-terceario);
+}
+

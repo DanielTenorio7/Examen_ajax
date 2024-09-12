@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <main>
+        <section class="redes_sociales">
+            <div class="avion">
+                <img src="assets/avion.png" alt="Avión rojo">
+            </div>
+            <div class="redes_sociales2">
+                <a href="#"><img src="assets/redes 1.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/redes 2.png" alt="Instagram"></a>
+                <a href="#"><img src="assets/redes 3.png" alt="TikTok"></a>
+            </div>
+        </section>
+
+        <section class="login">
+            <div class="login_usuario">
+                <form action="tu_proceso_de_login.php" method="POST" class="form">
+                    <label for="username">User Name</label>
+                    <div class="input">
+                        <img src="assets/ICONO 1.png" alt="Icono de usuario">
+                        <p style="color: red;">|</p>
+                        <input type="text" id="username" name="username" placeholder="Enter your user name" required>
+                    </div>
+
+                    <label for="email">Email Address</label>
+                    <div class="input">
+                        <img src="assets/ICONO 2.png" alt="Icono de correo">
+                        <p style="color: red;">|</p>
+                        <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                    </div>
+
+                    <label for="password">Password</label>
+                    <div class="input">
+                        <img src="assets/ICONO 3.png" alt="Icono de contraseña">
+                        <p style="color: red;">|</p>
+                        <input type="password" id="password" name="password" placeholder="Contraseña" required>
+                    </div>
+
+                    <label for="confirm_password">Confirm Password</label>
+                    <div class="input">
+                        <img src="assets/ICONO 4.png" alt="Icono de confirmación de contraseña">
+                        <p style="color: red;">|</p>
+                        <input type="password" id="confirm_password" name="confirm_password" placeholder="Contraseña" required>
+                    </div>
+
+                    <div class="checkbox">
+                        <div class="checkbox2">
+                            <p>Género</p>
+                            <div>
+                                <input type="radio" id="male" name="gender" value="male" required>
+                                <label for="male">Masculino</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="female" name="gender" value="female" required>
+                                <label for="female">Femenino</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="remember" name="remember">
+                                <label for="remember">Recordarme siempre</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <button id="create" type="submit">Submit</button>
+                        <button type="reset">Cancel</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="imagen_despacho">
+                <img src="assets/LOGO-AVION-ROJO-iSTRATEGY.png" alt="Imagen despacho">  
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="js/sesion.js"></script>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style4.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+    <header>
+        <button id="openModalBtn">Agregar nuevo contacto</button>
+        <div class="mostrar">
+            <p>Mostrar</p>
+            <input type="number">
+            <p>entradas</p>
+        </div>
+        
+        <div class="logo"> 
+            <img src="assets/LOGO-AVION-ROJO-iSTRATEGY.png" alt="logotipo">
+        </div>
+        <div class="buscador">
+            <p>Buscador:</p>
+            <input type="search">
+
+        </div>
+    </header>
+    <main>
+        <section class="etiquetas">
+            <div>
+                <p>Trabajo</p>
+                <input type="text">
+            </div>
+            <div>
+                <p>Diseño</p>
+                <input type="text">
+            </div>
+            <div>
+                <p>Familia</p>
+                <input type="text">
+            </div>
+            <div>
+                <p>Amigos</p>
+                <input type="text">
+            </div>
+            <div>
+                <p>Oficina</p>
+                <input type="text">
+            </div>
+
+            <p >+ crear nueva etiqueta</p>
+
+        </section  >
+        <section class="lista">
+            <table  id="userTable" >
+                <thead>
+                    <tr>
+                        <th>NO</th>
+                        <th>NOMBRE</th>
+                        <th>EMAIL</th>
+                        <th>TELEFONO</th>
+                        <th>ROL</th>
+                        <th>FECHA DE UNION</th>
+                        <th>SALARIO</th>
+                        <th>ACCION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Datos serán insertados aquí -->
+                </tbody>
+            </table> 
+        </section>
+        <div id="myModal" class="modal">
+            <!-- Contenido del modal -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form id="userForm">
+                    <input type="hidden" id="userId" name="id">
+                    <input type="text" id="name" name="name" placeholder="Nombre" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="text" id="telefono" name="telefono" placeholder="Telefono" required>
+                    <input type="text" id="rol" name="rol" placeholder="Rol" required>
+                    <input type="number" id="salario" name="salario" placeholder="Salario" step="0.01" required>
+                    <button id='save' type="submit">Guardar</button>
+                    <button id='create' type="submit">Crear</button>
+                </form>
+                
+            </div>
+        </div>
+            
+        
+
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/modal.js"></script>
+    
+    
+    
+</body>
+</html>

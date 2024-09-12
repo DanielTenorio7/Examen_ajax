@@ -1,0 +1,179 @@
+:root{
+    --color-primario : #334659 ;
+    --color-secundario : #cd3739 ;
+    --color-terceario : #ffffff ;
+    --color-textos : #404040 ;
+    --color-textos2 : #000000 ;
+    --color-cuarto : #233544 ;
+    --color-quinto : #586b76 ;
+    --color-iconografia: #9e9e9e ;
+    --color-septimo : #f77f00 ;
+    --color-octavo : #fcbf49 ;
+    --color-noveno : #eae2b7 ;
+    --color-decimo : #00bdff ;
+    --color-onceavo : #e0e0e0 ;
+    --color-doceavo : #2e465b ;
+
+
+}
+
+@font-face{
+    font-family: 'fuente1';
+    src: url(Mundial_Fonts/MyriadPro-Regular.otf);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'fuente1';
+}
+
+header{
+    color: var(--color-terceario);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-doceavo);
+    height: 80px;
+}
+#openModalBtn{
+    width: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--color-secundario);
+    color: var(--color-terceario);
+    
+}
+.mostrar{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.mostrar input{
+    width: 10%;
+    margin: 5px;
+    background-color: var(--color-secundario);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 80px;
+    
+}
+.logo img{
+    width: 40%;
+    object-fit: cover;
+    
+    
+}
+.buscador{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscador input{
+    width: 50%;
+}
+
+main{
+    background-color: var(--color-terceario);
+    display: flex;
+    height: 100%;
+}
+
+.etiquetas{
+    color: var(--color-terceario);
+    background-color: var(--color-doceavo);
+    height: 100%;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.etiquetas div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.etiquetas div p{
+    margin-left: 10px;
+}
+
+.etiquetas div input{
+    width: 10%;
+    margin: 20px;
+}
+
+.lista{
+    
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.menu_lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_lista div{
+    text-align: center;
+    width: 13%;
+    border: 2px solid black;
+}
+table {
+    border-collapse: collapse; /* Colapsar los bordes para evitar duplicaciones */
+    width: 100%; /* Hacer que la tabla ocupe el 100% del ancho disponible */
+}
+
+
+th, td {
+    border: 2px solid black; /* Agrega un borde a cada celda */
+    padding: 8px; /* Añadir espacio dentro de las celdas */
+    text-align: left; /* Alineación de texto */
+}
+
+table th{
+    color: var(--color-terceario);
+    background-color: var(--color-secundario);
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+.deleteUser{
+    background-image: url(../assets/icono\ basura-8.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el botón */
+    background-position: center; /* Centra la imagen en el botón */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    border: none; /* Elimina el borde del botón */
+    width: 20%;
+    height: 25px;
+}
+.editUser{
+    background-image: url(../assets/icono\ pluma-8.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el botón */
+    background-position: center; /* Centra la imagen en el botón */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    border: none; /* Elimina el borde del botón */
+    width: 20%;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
