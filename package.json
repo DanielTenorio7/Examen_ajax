@@ -1,0 +1,12 @@
+{
+  "name": "mi-pagina-web",
+  "version": "1.0.0",
+  "description": "Una página web con PHP, HTML, CSS y JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'No hay un servidor Node.js para iniciar'"
+  },
+  "keywords": [],
+  "author": "Tu Nombre",
+  "license": "ISC"
+}
