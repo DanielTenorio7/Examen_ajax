@@ -2,8 +2,9 @@
   "name": "mi-proyecto",
   "version": "1.0.0",
   "description": "Una breve descripción de mi proyecto",
-  "main": "index.html",
+  "main": "index.html",  // Cambia esto si tu archivo principal es otro
   "scripts": {
+    "start": "node index.html",  // Agrega un script de inicio si es necesario
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
