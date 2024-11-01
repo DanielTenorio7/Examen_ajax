@@ -1,19 +1,11 @@
 {
   "name": "mi-proyecto",
   "version": "1.0.0",
-  "description": "Una breve descripción de mi proyecto",
-  "main": "index.html",
-  "scripts": {
-    "start": "node index.html", 
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
   },
   "devDependencies": {
-    "eslint": "^7.32.0"
-  },
-  "engines": {
-    "node": ">=14.0.0"
+    "jest": "^26.6.3"
   }
 }
