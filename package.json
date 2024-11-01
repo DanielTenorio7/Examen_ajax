@@ -1,12 +1,18 @@
 {
-  "name": "mi-pagina-web",
+  "name": "mi-proyecto",
   "version": "1.0.0",
-  "description": "Una página web con PHP, HTML, CSS y JavaScript",
+  "description": "Una breve descripción de mi proyecto",
   "main": "index.html",
   "scripts": {
-    "start": "echo 'No hay un servidor Node.js para iniciar'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Tu Nombre",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
