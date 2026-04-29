@@ -9,7 +9,7 @@
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
-    "jest": "^29.7.0",
+    "jest": "^30.3.0",
     "nodemon": "^3.1.7",
     "browser-sync": "^2.27.7",
     "gulp": "^5.0.0",
